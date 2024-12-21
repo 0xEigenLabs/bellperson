@@ -1,4 +1,7 @@
-#![cfg_attr(all(target_arch = "aarch64", nightly), feature(stdarch_aarch64_prefetch))]
+#![cfg_attr(
+    all(target_arch = "aarch64", nightly),
+    feature(stdarch_aarch64_prefetch)
+)]
 
 #[cfg(test)]
 #[macro_use]
